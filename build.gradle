@@ -13,6 +13,10 @@ buildscript {
     }
 }
 
+plugins {
+  id "com.jfrog.artifactory" version "4.9.10"
+}
+
 repositories {
     mavenLocal()
     maven { url "https://repo.grails.org/grails/core" }
